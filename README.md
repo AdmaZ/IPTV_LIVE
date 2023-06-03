@@ -30,15 +30,15 @@
       <td>📺IPTV(IPV6专用)</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
       <td><a href="https://github.com/fanmingming/live/edit/main/tv/m3u/ipv6.m3u">编辑该源</a></td>
-      <td>176个</td>
-      <td>2023.5.13</td>
+      <td>128个</td>
+      <td>2023.5.29</td>
     </tr>
     <tr>
       <td>🌏Global直播源</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/global.m3u">https://live.fanmingming.com/tv/m3u/global.m3u</a></td>
       <td><a href="https://github.com/fanmingming/live/edit/main/tv/m3u/global.m3u">编辑该源</a></td>
-      <td>288个</td>
-      <td>2023.5.11</td>
+      <td>194个</td>
+      <td>2023.5.21</td>
     </tr>
     <tr>
       <td>📻Radio直播源</td>
@@ -57,7 +57,7 @@
   - Demo🔗 [https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8](https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8)
 
 ## 📖说明
-- 所有直播频道的播放源均收集于互联网，仅供测试使用。
+- 所有播放源均收集于互联网，仅供测试研究使用，切勿商用。
 - 通过M3U8 Player测试直播源需使用https协议的直播源链接。
 - 部分广播电台节目播出具有一定的时效性，需要在指定时段进行收听。
 - 本项目不存储任何的流媒体内容，所有的法律责任与后果应由使用者自行承担。
@@ -67,5 +67,7 @@
 - 您可以编辑本项目的m3u文件或上传缺失的频道Logo到`tv`或`radio`目录下并发起拉取请求，收到请求后我们会对您提交的内容进行验证，审核通过后会自动发布。
 
 ## 📔更新
-- 2023.5.13
-  - IPv6源修复了大部分失效的频道，重新刷新直播源以正常观看。
+- 2023.6.1
+  - ipv6.m3u频道将仅添加支持双栈或纯IPv6播放链接,不再加入纯IPv4链接。
+  - 因服务器不堪重负，原IPv6源文件名现已变更为[ipv6plus.m3u](https://live.fanmingming.com/tv/m3u/ipv6plus.m3u)。
+  - 对部分频道链接添加了auth参数验证以应对盗链，重新刷新即可正常收看节目。
