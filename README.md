@@ -53,12 +53,12 @@
 ## 🛠️工具
 - 🆕EPG接口地址(测试)
   -  [https://live.fanmingming.com/e.xml](https://live.fanmingming.com/e.xml)
-- M3U8 Web Player
+- 🌐M3U8 Web Player
   - Demo🔗 [https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8](https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8)
 
 ## 📖说明
 - 所有播放源均收集于互联网，仅供测试研究使用，切勿商用。
-- 通过M3U8 Player测试直播源需使用https协议的直播源链接。
+- 通过M3U8 Web Player测试直播源需使用https协议的直播源链接。
 - 部分广播电台节目播出具有一定的时效性，需要在指定时段进行收听。
 - 本项目不存储任何的流媒体内容，所有的法律责任与后果应由使用者自行承担。
 - 您可以Fork本项目，但引用本项目内容到其他仓库的情况，务必要遵守开源协议。
@@ -67,5 +67,5 @@
 - 您可以编辑本项目的m3u文件或上传缺失的频道Logo到`tv`或`radio`目录下并发起拉取请求，收到请求后我们会对您提交的内容进行验证，审核通过后会自动发布。
 
 ## 📔更新
-- 2023.6.7
-  - ipv6源去掉了部分失效的频道。
+- 2023.6.16
+  - 防止盗链，更新了播放接口的auth参数。请刷新以正常观看或收听节目。
