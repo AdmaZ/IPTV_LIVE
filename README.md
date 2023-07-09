@@ -37,8 +37,8 @@
       <td>🌏Global直播源</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/global.m3u">https://live.fanmingming.com/tv/m3u/global.m3u</a></td>
       <td><a href="https://github.com/fanmingming/live/edit/main/tv/m3u/global.m3u">编辑该源</a></td>
-      <td>194个</td>
-      <td>2023.5.21</td>
+      <td>204个</td>
+      <td>2023.6.29</td>
     </tr>
     <tr>
       <td>📻Radio直播源</td>
@@ -51,13 +51,15 @@
 </table>
 
 ## 🛠️工具
-- 🆕EPG接口地址(测试)
+- 🆕EPG接口地址：
   -  [https://live.fanmingming.com/e.xml](https://live.fanmingming.com/e.xml)
+- 📄M3U To TXT：
+  - Demo🔗 [https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u](https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u)
 - 🌐M3U8 Web Player
   - Demo🔗 [https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8](https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8)
 
 ## 📖说明
-- 所有播放源均收集于互联网，仅供测试研究使用，切勿商用。
+- 所有播放源均收集于互联网，仅供测试研究使用，不得商用。
 - 通过M3U8 Web Player测试直播源需使用https协议的直播源链接。
 - 部分广播电台节目播出具有一定的时效性，需要在指定时段进行收听。
 - 本项目不存储任何的流媒体内容，所有的法律责任与后果应由使用者自行承担。
@@ -67,5 +69,6 @@
 - 您可以编辑本项目的m3u文件或上传缺失的频道Logo到`tv`或`radio`目录下并发起拉取请求，收到请求后我们会对您提交的内容进行验证，审核通过后会自动发布。
 
 ## 📔更新
-- 2023.6.16
-  - IPv6源去掉了两个失效的频道。
+- 2023.6.29
+  - 上传了一些地方电视频道的Logo，顺便添加了一些频道。
+  - 添加了M3U到TXT格式的转换工具，支持转换国内直连情况下无法访问的m3u链接。
